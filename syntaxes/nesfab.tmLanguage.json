@@ -51,7 +51,7 @@
         },
         "modifier-flags": {
             "name": "entity.name.type.modifier.nesfab",
-            "match": "[+-](inline|align|zero_page|spr_8x16|graphviz|info|dpcm)\\b"
+            "match": "[+-](inline|align|zero_page|sram|spr_8x16|graphviz|info|dpcm|sector|static|static_fixed|palette_3|palette_25|sloppy|fork_scope|solo_interrupt|unused)\\b"
         },
         "struct-declaration": {
             "match": "\\b(struct)\\s+(\\w+)\\b",
